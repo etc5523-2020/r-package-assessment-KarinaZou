@@ -30,7 +30,7 @@ You can install the released version of Coviddata from [CRAN](https://CRAN.R-pro
 install.packages("Coviddata")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
+The development version can be installed from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
