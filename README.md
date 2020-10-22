@@ -39,5 +39,3 @@ This is a basic example show you how to launch the app::
 ```
 
 You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
