@@ -41,8 +41,9 @@ devtools::install_github("etc5523-2020/r-package-assessment-KarinaZou")
 This is a basic example show you how to launch the app::
 
 ```{r example}
-#library(Coviddata)
-#Coviddata::launch_app()
+library(Coviddata)
+library(tibble)
+tb
 ```
 
 
