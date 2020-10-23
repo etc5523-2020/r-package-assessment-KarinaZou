@@ -1,2 +1,5 @@
+^CovidData\.Rproj$
 ^\.Rproj\.user$
-^\.github$
+^LICENSE\.md$
+^README\.Rmd$
+^data-raw$

@@ -1,16 +1,26 @@
-Package: yourPkg
-Title: What the Package Does (One Line, Title Case)
+Package: Coviddata
+Title: Covid-19 data with shiny app
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Ying",
+           family = "Zou",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "zouying1995@sina.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: This package provide Covid-19 data and a shiny app.The shiny app  will give information with the interactive plots and table. 
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+URL: https://github.com/etc5523-2020/r-package-assessment-KarinaZou
+Depends: 
+    R (>= 2.10),
+    shiny
+Imports: 
+    tibble
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
